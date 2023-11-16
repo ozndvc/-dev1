@@ -1,0 +1,101 @@
+Dizi: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+    İlk Eleman (7):
+        Root olarak yerleştirilir: 7
+
+    5 (Root'un soluna):
+        5, 7'nin soluna yerleştirilir.
+
+   7
+  /
+ 5
+
+    1 (Root'un soluna):
+        1, 7'nin soluna yerleştirilir.
+
+   7
+  /
+ 5
+/
+1
+
+    8 (Root'un sağına):
+        8, 7'nin sağına yerleştirilir.
+
+   7
+  / \
+ 5   8
+/
+1
+
+    3 (Root'un soluna):
+        3, 5'in sağına yerleştirilir.
+
+   7
+  / \
+ 5   8
+/ \
+1   3
+
+    6 (Root'un soluna):
+        6, 5'in sağına yerleştirilir.
+
+   7
+  / \
+ 5   8
+/ \
+1   3
+   /
+  6
+
+    0 (Root'un soluna):
+        0, 1'in soluna yerleştirilir.
+
+   7
+  / \
+ 5   8
+/ \
+1   3
+   / \
+  6   0
+
+    9 (Root'un sağına):
+        9, 8'in sağına yerleştirilir.
+
+   7
+  / \
+ 5   8
+/ \   \
+1   3   9
+   / \
+  6   0
+
+    4 (Root'un soluna):
+        4, 3'ün sağına yerleştirilir.
+
+markdown
+
+   7
+  / \
+ 5   8
+/ \   \
+1   3   9
+   / \
+  6   0
+       \
+        4
+
+    2 (Root'un soluna):
+        2, 3'ün soluna yerleştirilir.
+
+   7
+  / \
+ 5   8
+/ \   \
+1   3   9
+   / \
+  6   0
+ / \
+2   4
+
+Bu şekilde verilen dizi bir Binary Search Tree oluşturulmuş olur.
